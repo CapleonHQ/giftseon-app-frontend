@@ -34,7 +34,7 @@ const HowItWorks = () => {
       description:
         'Choose from beautiful templates and personalize with photos, stories, and gift preferences. Set up takes just minutes.',
       icon: Calendar,
-      gradient: 'from-[#F97316] to-[#EC4899]',
+      gradient: 'from-[#1a1abc] to-[#3b82f6]',
     },
     {
       number: '2.',
@@ -42,7 +42,7 @@ const HowItWorks = () => {
       description:
         'Share your celebration page across social media, messaging apps, or generate QR codes for easy access.',
       icon: Share2,
-      gradient: 'from-[#EC4899] to-[#A855F7]',
+      gradient: 'from-[#3b82f6] to-[#2563eb]',
     },
     {
       number: '3.',
@@ -50,7 +50,7 @@ const HowItWorks = () => {
       description:
         'Receive gifts, messages, and well-wishes in real-time. Track progress and thank contributors personally.',
       icon: Heart,
-      gradient: 'from-[#A855F7] to-[#3B82F6]',
+      gradient: 'from-[#2563eb] to-[#1a1abc]',
     },
   ]
 
@@ -60,42 +60,42 @@ const HowItWorks = () => {
       description:
         'Create beautiful, personalized celebration pages in minutes with our intuitive templates',
       icon: Calendar,
-      gradient: 'from-[#F97316] to-[#EC4899]',
+      gradient: 'from-[#1a1abc] to-[#3b82f6]',
     },
     {
       title: 'Social Sharing',
       description:
         'Share your celebration across all platforms with QR codes and optimized social links',
       icon: Share2,
-      gradient: 'from-[#F97316] to-[#EC4899]',
+      gradient: 'from-[#1a1abc] to-[#3b82f6]',
     },
     {
       title: 'Secure Payments',
       description:
         'Safe, fast payment processing with multiple options for contributors worldwide',
       icon: CreditCard,
-      gradient: 'from-[#F97316] to-[#EC4899]',
+      gradient: 'from-[#1a1abc] to-[#3b82f6]',
     },
     {
       title: 'Personal Messages',
       description:
         'Collect heartfelt messages, photos, and videos from friends and family',
       icon: MessageCircle,
-      gradient: 'from-[#F97316] to-[#EC4899]',
+      gradient: 'from-[#1a1abc] to-[#3b82f6]',
     },
     {
       title: 'Mobile-First Design',
       description:
         'Perfectly optimized experience across all devices and screen sizes',
       icon: Smartphone,
-      gradient: 'from-[#F97316] to-[#EC4899]',
+      gradient: 'from-[#1a1abc] to-[#3b82f6]',
     },
     {
       title: 'Global Reach',
       description:
         'Connect with friends and family anywhere in the world, regardless of location',
       icon: Globe,
-      gradient: 'from-[#F97316] to-[#EC4899]',
+      gradient: 'from-[#1a1abc] to-[#3b82f6]',
     },
   ]
 
@@ -104,7 +104,7 @@ const HowItWorks = () => {
       {/* How Gifteon Works Section */}
       <motion.section
         id='how-it-works'
-        className='bg-gradient-to-br from-[#FFF7ED] via-[#FDF2F8] to-[#FAF5FF] px-4 sm:px-6 lg:px-8 py-16 sm:py-20'
+        className='bg-gradient-to-br from-[#F0F5FF] via-[#E6F0FF] to-[#D6E4FF] px-4 sm:px-6 lg:px-8 py-16 sm:py-20'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
