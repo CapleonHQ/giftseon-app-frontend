@@ -61,7 +61,7 @@ body {
 }
 
 .custom-bullet-active {
-  background: linear-gradient(135deg, #fb923c, #ef4444) !important;
+  background: #1a1abc !important;
   transform: scale(1.25) !important;
 }
 

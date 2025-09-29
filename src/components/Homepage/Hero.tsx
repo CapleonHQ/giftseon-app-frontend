@@ -21,7 +21,7 @@ const Hero = () => {
   }
 
   return (
-    <main className='relative z-10 px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py:20 bg-gradient-to-br from-[#FFF7ED] via-[#FDF2F8] to-[#FAF5FF]'>
+    <main className='relative z-10 px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py:20 bg-gradient-to-br from-[#F0F5FF] via-[#E6F0FF] to-[#D6E4FF]'>
       <div className='max-w-7xl mx-auto'>
         <div className='grid lg:grid-cols-2 gap-8 lg:gap-12 items-center'>
           {/* Left Column - Content */}
@@ -34,7 +34,7 @@ const Hero = () => {
             {/* Badge */}
             <motion.div
               variants={fadeInUp}
-              className='inline-flex items-center space-x-2 bg-gradient-to-r from-[#FFEDD5] to-[#FCE7F3] text-[#9A3412] px-4 py-2 rounded-full text-base mb-6'
+              className='inline-flex items-center space-x-2 bg-gradient-to-r from-[#E0EAFF] to-[#D6E4FF] text-[#1a1abc] px-4 py-2 rounded-full text-base mb-6'
             >
               <Sparkles className='w-4 h-4' />
               <span className='leading-6 tracking-[0%]'>
@@ -48,7 +48,7 @@ const Hero = () => {
               className='text-4xl sm:text-5xl lg:text-6xl font-bold lg:leading-[60px] mb-6'
             >
               Make Every{' '}
-              <span className='bg-gradient-to-r from-[#EA580C] via-[#DB2777] to-[#9333EA] bg-clip-text text-transparent'>
+              <span className='bg-gradient-to-r from-[#1a1abc] via-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent'>
                 Celebration
               </span>{' '}
               Unforgettable
@@ -70,7 +70,7 @@ const Hero = () => {
             >
               <Link href='/#waitlist'>
                 <motion.span
-                  className='bg-gradient-to-r from-[#F97316] via-[#F25C5B] to-[#EC4899] text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center space-x-2'
+                  className='bg-[#1a1abc] text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center space-x-2'
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -174,7 +174,7 @@ const Hero = () => {
             >
               {/* Dashboard Header */}
               <div className='flex items-center space-x-3 mb-6'>
-                <div className='w-12 h-12 bg-gradient-to-r from-[#F472B6] to-[#DB2777] rounded-full flex items-center justify-center'>
+                <div className='w-12 h-12 bg-gradient-to-r from-[#1a1abc] to-[#3b82f6] rounded-full flex items-center justify-center'>
                   <Cake className='w-6 h-6 text-white' />
                 </div>
                 <div>
@@ -188,16 +188,16 @@ const Hero = () => {
               </div>
 
               {/* Goal Progress */}
-              <div className='mb-6 bg-gradient-to-r from-[#FFEDD5] to-[#FCE7F3] p-4 rounded-xl'>
+              <div className='mb-6 bg-gradient-to-r from-[#E0EAFF] to-[#D6E4FF] p-4 rounded-xl'>
                 <div className='flex flex-col sm:flex-row gap-2 justify-between sm:items-center mb-2'>
                   <span className='text-[#374151]'>Goal Progress</span>
-                  <span className='font-bold text-[#EA580C]'>
+                  <span className='font-bold text-[#1a1abc]'>
                     ₦85,000 / ₦100,000
                   </span>
                 </div>
                 <div className='w-full bg-white rounded-full h-3'>
                   <motion.div
-                    className='bg-gradient-to-r from-[#F97316] to-[#EC4899] h-3 rounded-full'
+                    className='bg-gradient-to-r from-[#1a1abc] to-[#3b82f6] h-3 rounded-full'
                     initial={{ width: 0 }}
                     animate={{ width: '85%' }}
                     transition={{ delay: 1, duration: 1.5, ease: 'easeOut' }}
@@ -208,12 +208,12 @@ const Hero = () => {
               {/* Stats */}
               <div className='grid grid-cols-2 gap-6'>
                 <motion.div
-                  className='text-center bg-[#FAF5FF] rounded-lg py-3'
+                  className='text-center bg-[#EFF6FF] rounded-lg py-3'
                   initial={{ scale: 0.8, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ delay: 1.2 }}
                 >
-                  <div className='text-2xl leading-8 font-bold text-[#9333EA]'>
+                  <div className='text-2xl leading-8 font-bold text-[#1a1abc]'>
                     24
                   </div>
                   <div className='text-sm leading-5 text-[#4B5563]'>
@@ -237,7 +237,7 @@ const Hero = () => {
             </motion.div>
 
             {/* Decorative Background Circle */}
-            <div className='absolute top-8 right-8 w-64 h-64 bg-gradient-to-br from-yellow-200/20 to-orange-200/20 rounded-full -z-10'></div>
+            <div className='absolute top-8 right-8 w-64 h-64 bg-gradient-to-br from-blue-200/20 to-blue-300/20 rounded-full -z-10'></div>
           </motion.div>
         </div>
       </div>

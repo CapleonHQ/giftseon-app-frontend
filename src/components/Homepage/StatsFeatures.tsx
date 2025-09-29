@@ -32,28 +32,28 @@ const StatsFeatures = () => {
       title: 'Birthday Celebrations',
       description:
         'Create memorable birthday experiences with personalized gift collections',
-      bgColor: 'bg-gradient-to-r from-[#EC4899] to-[#F43F5E]',
+      bgColor: 'bg-gradient-to-r from-[#1a1abc] to-[#3b82f6]',
     },
     {
       icon: Crown,
       title: 'Weddings & Anniversaries',
       description:
         'Perfect for couples planning their special day or milestone celebrations',
-      bgColor: 'bg-gradient-to-r from-[#A855F7] to-[#6366F1]',
+      bgColor: 'bg-gradient-to-r from-[#2563eb] to-[#06B6D4]',
     },
     {
       icon: GraduationCap,
       title: 'Graduations',
       description:
         "Celebrate academic achievements and support new graduates' next steps",
-      bgColor: 'bg-gradient-to-r from-[#3B82F6] to-[#06B6D4]',
+      bgColor: 'bg-gradient-to-r from-[#3B82F6] to-[#60a5fa]',
     },
     {
       icon: Music,
       title: 'Creative Projects',
       description:
         'Support artists, creators, and entrepreneurs launching new ventures',
-      bgColor: 'bg-gradient-to-r from-[#F97316] to-[#EAB308]',
+      bgColor: 'bg-gradient-to-r from-[#1a1abc] to-[#2563eb]',
     },
   ]
 
@@ -85,7 +85,7 @@ const StatsFeatures = () => {
                   transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                 >
                   <motion.div
-                    className='text-3xl sm:text-4xl sm:leading-10 font-bold bg-gradient-to-r from-[#EA580C] to-[#DB2777] bg-clip-text text-transparent mb-2'
+                    className='text-3xl sm:text-4xl sm:leading-10 font-bold bg-gradient-to-r from-[#1a1abc] to-[#3b82f6] bg-clip-text text-transparent mb-2'
                     initial={{ scale: 0.5, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
@@ -107,7 +107,7 @@ const StatsFeatures = () => {
         </motion.section>
       </div>
       {/* Features Section */}
-      <div className='bg-gradient-to-br from-[#FFF7ED] via-[#FDF2F8] to-[#FAF5FF] relative overflow-hidden'>
+      <div className='bg-gradient-to-br from-[#F0F5FF] via-[#E6F0FF] to-[#D6E4FF] relative overflow-hidden'>
         <motion.section
           className='relative  px-4 sm:px-6 lg:px-8 py-16 sm:py-20'
           initial={{ opacity: 0 }}
@@ -154,7 +154,6 @@ const StatsFeatures = () => {
                     {/* Icon */}
                     <motion.div
                       className={`w-14 h-14 sm:w-16 sm:h-16 ${feature.bgColor} rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}
-                      whileHover={{ rotate: [0, -5, 5, 0] }}
                       transition={{ duration: 0.6 }}
                     >
                       <IconComponent

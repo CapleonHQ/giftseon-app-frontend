@@ -18,7 +18,7 @@ const Testimonials = () => {
       name: 'James Oduya',
       role: 'Content Creator',
       avatar: 'J',
-      avatarColor: 'bg-gradient-to-br from-orange-400 to-red-500',
+      avatarColor: 'bg-gradient-to-br from-[#1a1abc] to-[#3b82f6]',
       quote:
         "Giftseon has transformed how I connect with my audience. It's not just about gifts - it's about building a real community around my creative work.",
     },
@@ -26,7 +26,7 @@ const Testimonials = () => {
       name: 'Sarah Adebayo',
       role: 'Event Planner',
       avatar: 'S',
-      avatarColor: 'bg-gradient-to-br from-pink-400 to-purple-500',
+      avatarColor: 'bg-gradient-to-br from-[#3b82f6] to-[#2563eb]',
       quote:
         'Planning celebrations became so much easier with Giftseon. My clients love how their guests can contribute meaningfully to special moments.',
     },
@@ -34,7 +34,7 @@ const Testimonials = () => {
       name: 'Michael Chen',
       role: 'Entrepreneur',
       avatar: 'M',
-      avatarColor: 'bg-gradient-to-br from-blue-400 to-cyan-500',
+      avatarColor: 'bg-gradient-to-br from-[#2563eb] to-[#60a5fa]',
       quote:
         'We used Giftseon for our startup launch party. The community response was incredible - it felt like everyone was truly part of our journey.',
     },
@@ -42,7 +42,7 @@ const Testimonials = () => {
       name: 'Aisha Mohammed',
       role: 'Teacher',
       avatar: 'A',
-      avatarColor: 'bg-gradient-to-br from-green-400 to-teal-500',
+      avatarColor: 'bg-gradient-to-br from-[#1a1abc] to-[#2563eb]',
       quote:
         "My students surprised me with a Giftseon page for Teacher's Day. The heartfelt messages and support meant more than any gift ever could.",
     },
@@ -77,7 +77,7 @@ const Testimonials = () => {
 
   return (
     <div
-      className='bg-gradient-to-b from-[#FAF5FF] to-[#FDF2F8] py-16 sm:py-20 relative overflow-hidden'
+      className='bg-gradient-to-b from-[#F0F5FF] to-[#E6F0FF] py-16 sm:py-20 relative overflow-hidden'
       id='stories'
     >
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative'>

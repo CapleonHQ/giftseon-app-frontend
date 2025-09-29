@@ -59,7 +59,7 @@ const Header = () => {
               transition={{ type: 'spring', stiffness: 400, damping: 10 }}
             >
               <Image
-                src='/assets/images/logo-primary.png'
+                src='/assets/images/logo-image.svg'
                 alt='Giftseon Logo'
                 className='w-full h-full'
                 width={200}
@@ -88,7 +88,7 @@ const Header = () => {
             {/* Desktop CTA Button */}
             <Link href='/#waitlist'>
               <motion.span
-                className='hidden md:block bg-gradient-to-r from-[#F97316] to-[#EC4899] text-white px-8 py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-200'
+                className='hidden md:block bg-[#1a1abc] text-white px-8 py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-200'
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.3, duration: 0.4 }}
@@ -175,7 +175,7 @@ const Header = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <motion.span
-                    className='w-full bg-gradient-to-r from-[#F97316] to-[#EC4899] text-white px-6 py-4 rounded-xl font-semibold mt-6'
+                    className='w-full bg-[#1a1abc] text-white px-6 py-4 rounded-xl font-semibold mt-6'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3 }}
