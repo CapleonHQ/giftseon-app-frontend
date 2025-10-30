@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 type VerificationState = 'loading' | 'success' | 'error' | 'no-token'
 
-const MagicLinkVerifyPage = () => {
+const MagicLinkVerifyContent = () => {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [verificationState, setVerificationState] =
@@ -187,6 +187,14 @@ const MagicLinkVerifyPage = () => {
         </div>
       </div>
     </div>
+  )
+}
+
+const MagicLinkVerifyPage = () => {
+  return (
+    <Suspense fallback={<>Loading...</>}>
+      <MagicLinkVerifyContent />
+    </Suspense>
   )
 }
 
