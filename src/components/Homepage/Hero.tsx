@@ -31,6 +31,14 @@ const Hero = () => {
             initial='initial'
             animate='animate'
           >
+            {/* Company Attribution */}
+            <motion.p
+              variants={fadeInUp}
+              className='text-xs text-[#6B7280] mb-3 tracking-wide uppercase'
+            >
+              By Capleon International Concept Limited
+            </motion.p>
+
             {/* Badge */}
             <motion.div
               variants={fadeInUp}
