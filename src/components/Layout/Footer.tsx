@@ -55,6 +55,12 @@ const Footer = () => {
               Making every celebration memorable with beautiful, personalized
               gift experiences.
             </p>
+            <p className='text-[#6B7280] text-sm mt-3 leading-[20px]'>
+              A product of{' '}
+              <span className='text-white font-medium'>
+                Capleon International Concept Limited
+              </span>
+            </p>
           </motion.div>
 
           {/* Footer Links */}
@@ -105,17 +111,25 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <div className='flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0'>
-            <p className='text-[#9CA3AF] text-sm sm:text-base'>
-              © 2025 Giftseon. Made with{' '}
-              <motion.span
-                className='inline-block'
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 1, repeat: Infinity }}
-              >
-                <Heart className='w-4 h-4 text-red-500 inline fill-current' />
-              </motion.span>{' '}
-              for celebrations worldwide.
-            </p>
+            <div className='text-center'>
+              <p className='text-[#9CA3AF] text-sm sm:text-base'>
+                © 2025 Giftseon. Made with{' '}
+                <motion.span
+                  className='inline-block'
+                  animate={{ scale: [1, 1.2, 1] }}
+                  transition={{ duration: 1, repeat: Infinity }}
+                >
+                  <Heart className='w-4 h-4 text-red-500 inline fill-current' />
+                </motion.span>{' '}
+                for celebrations worldwide.
+              </p>
+              <p className='text-[#6B7280] text-xs mt-1'>
+                Giftseon is owned by{' '}
+                <span className='text-[#9CA3AF]'>
+                  Capleon International Concept Limited
+                </span>
+              </p>
+            </div>
 
             {/* Social links could go here */}
             {/* <motion.div
